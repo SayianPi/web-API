@@ -36,6 +36,7 @@ namespace MyWebApi
             // school route
             // we can configure multiple routes in the Web API using HttpConfiguration object.
             //convention-based routing for StudentController but there is also Attribute routing on the StudentController
+            //(no need of this route configuration actually)
             config.Routes.MapHttpRoute(
                 name: "student",
                 routeTemplate: "api/student/{id}", //url for conventional based routing

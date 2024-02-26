@@ -51,14 +51,15 @@ namespace MyWebApi.Controllers
             // - Use '[FromBody]' attribute to get the value of primitive type from the request body
         }
 
-        /*public int GetId(string name)  -> PRIMITIVE RETURN TYPE
+      
+        /*public int GetId(string name)  //-> PRIMITIVE RETURN TYPE
         {
             int id = GetStudentId(name);
 
             return id;
         }
 
-        public Student GetStudent(int id) -> COMPLEX RETURN TYPE
+        public Student GetStudent(int id) //-> COMPLEX RETURN TYPE
         {
             var student = GetStudentFromDB(id);
 
@@ -66,7 +67,7 @@ namespace MyWebApi.Controllers
         }
         
          
-        public HttpResponseMessage Get(int id) -> RETURN HttpResponseMessage TYPE
+        public HttpResponseMessage Get(int id) //-> RETURN HttpResponseMessage TYPE
         {
             Student stud = GetStudentFromDB(id);
 
@@ -77,8 +78,21 @@ namespace MyWebApi.Controllers
 
             return Request.CreateResponse(HttpStatusCode.OK, stud);
         }
-        */
+        
+        public IHttpActionResult Get(int id)  //-> Return IHttpActionResult Type
+        {
+            Student stud = GetStudentFromDB(id);
 
+            if (stud == null)
+            {
+                return NotFound(); //here NotFound() and Ok() method does it all for us, 
+                                   //we don't have to write much code. There are other apicontroller methods
+                                   // visit https://www.tutorialsteacher.com/webapi/action-method-return-type-in-web-api
+            }
+
+            return Ok(stud);
+        } */
 
     }
+    
 }
