@@ -18,10 +18,10 @@ namespace MyWebApi.Controllers
         //you can combine both techniques in the same project.
 
         //Attribute Routing
-        [Route("api/student/names")]  //url for attribute routing
+        [Route("api/student/prayer")]  //url for attribute routing
         public IEnumerable<string> Get()
         {
-            return new string[] { "student1", "student2" };
+            return new string[] { "God is great. I believe in higher power." };
         }
 
       

@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{1CBC0D44-5485-4027-B8DA-FA74E7DBC131}|MyWebApi.csproj|solutionrelative:controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1CBC0D44-5485-4027-B8DA-FA74E7DBC131}|MyWebApi.csproj|C:\\Users\\zlams\\source\\repository\\MyWebApi\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CBC0D44-5485-4027-B8DA-FA74E7DBC131}|MyWebApi.csproj|solutionrelative:global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1CBC0D44-5485-4027-B8DA-FA74E7DBC131}|MyWebApi.csproj|C:\\Users\\zlams\\source\\repository\\MyWebApi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CBC0D44-5485-4027-B8DA-FA74E7DBC131}|MyWebApi.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,8 +19,8 @@
       "RelativeMoniker": "D:0:0:{1CBC0D44-5485-4027-B8DA-FA74E7DBC131}|MyWebApi.csproj|solutionrelative:app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CBC0D44-5485-4027-B8DA-FA74E7DBC131}|MyWebApi.csproj|C:\\Users\\zlams\\source\\repository\\MyWebApi\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CBC0D44-5485-4027-B8DA-FA74E7DBC131}|MyWebApi.csproj|solutionrelative:global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CBC0D44-5485-4027-B8DA-FA74E7DBC131}|MyWebApi.csproj|c:\\users\\zlams\\source\\repository\\mywebapi\\controllers\\formatterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CBC0D44-5485-4027-B8DA-FA74E7DBC131}|MyWebApi.csproj|solutionrelative:controllers\\formatterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,7 +40,7 @@
               "RelativeDocumentMoniker": "Controllers\\ValuesController.cs",
               "ToolTip": "C:\\Users\\zlams\\source\\repository\\MyWebApi\\Controllers\\ValuesController.cs",
               "RelativeToolTip": "Controllers\\ValuesController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowC0AAAAAAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAA5wCoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-05T02:07:02.815Z",
               "IsPinned": true,
@@ -44,13 +48,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "WebApiConfig.cs",
               "DocumentMoniker": "C:\\Users\\zlams\\source\\repository\\MyWebApi\\App_Start\\WebApiConfig.cs",
               "RelativeDocumentMoniker": "App_Start\\WebApiConfig.cs",
               "ToolTip": "C:\\Users\\zlams\\source\\repository\\MyWebApi\\App_Start\\WebApiConfig.cs",
               "RelativeToolTip": "App_Start\\WebApiConfig.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCYAAAA8AAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAADcAAABtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-05T02:08:40.932Z",
               "IsPinned": true,
@@ -58,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "C:\\Users\\zlams\\source\\repository\\MyWebApi\\Global.asax.cs",
               "RelativeDocumentMoniker": "Global.asax.cs",
@@ -67,17 +71,31 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-08T02:04:41.001Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "FormattersController.cs",
+              "DocumentMoniker": "C:\\Users\\zlams\\source\\repository\\MyWebApi\\Controllers\\FormattersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FormattersController.cs",
+              "ToolTip": "C:\\Users\\zlams\\source\\repository\\MyWebApi\\Controllers\\FormattersController.cs",
+              "RelativeToolTip": "Controllers\\FormattersController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T05:02:41.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Users\\zlams\\source\\repository\\MyWebApi\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
               "ToolTip": "C:\\Users\\zlams\\source\\repository\\MyWebApi\\Controllers\\StudentController.cs",
               "RelativeToolTip": "Controllers\\StudentController.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAmwF4AAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-09T01:44:51.175Z",
               "EditorCaption": ""
